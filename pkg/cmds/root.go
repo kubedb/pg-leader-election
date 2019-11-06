@@ -18,8 +18,6 @@ package cmds
 import (
 	"flag"
 
-	"kubedb.dev/apimachinery/client/clientset/versioned/scheme"
-
 	"github.com/appscode/go/flags"
 	"github.com/appscode/go/log/golog"
 	v "github.com/appscode/go/version"
@@ -39,7 +37,6 @@ func NewRootCmd(version string) *cobra.Command {
 			flags.DumpAll(c.Flags())
 			cli.SendAnalytics(c, version)
 
-			utilruntime.Must(scheme.AddToScheme(clientsetscheme.Scheme))
 			utilruntime.Must(appcatscheme.AddToScheme(clientsetscheme.Scheme))
 			cli.LoggerOptions = golog.ParseFlags(c.Flags())
 		},
