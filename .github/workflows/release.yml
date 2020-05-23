@@ -24,7 +24,8 @@ jobs:
       id: buildx
       uses: crazy-max/ghaction-docker-buildx@v1
       with:
-        version: latest
+        buildx-version: latest
+        qemu-version: latest
 
     - name: Available platforms
       run: echo ${{ steps.buildx.outputs.platforms }}
@@ -34,6 +35,20 @@ jobs:
         APPSCODE_ENV: prod
       run: |
         make release
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        draft: true
+        files: |
+          bin/pg-leader-election-linux-amd64
+          bin/pg-leader-election-linux-arm
+          bin/pg-leader-election-linux-arm64
+          bin/pg-leader-election-windows-amd64.exe
+          bin/pg-leader-election-darwin-amd64
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - uses: actions/upload-artifact@master
       with:
