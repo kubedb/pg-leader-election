@@ -16,7 +16,7 @@ require (
 	k8s.io/api v0.18.3
 	k8s.io/apimachinery v0.18.3
 	k8s.io/client-go v12.0.0+incompatible
-	kmodules.xyz/client-go v0.0.0-20200714060506-0b57b4060595
+	kmodules.xyz/client-go v0.0.0-20200723053948-317b6023eb5d
 	kmodules.xyz/custom-resources v0.0.0-20200604135349-9e9f5c4fdba9
 )
 
