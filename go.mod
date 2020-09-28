@@ -17,7 +17,7 @@ require (
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mitchellh/mapstructure v1.2.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/spf13/cobra v0.0.5
+	github.com/spf13/cobra v1.0.0
 	github.com/stretchr/testify v1.5.1 // indirect
 	golang.org/x/net v0.0.0-20200602114024-627f9648deb9 // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
@@ -26,9 +26,9 @@ require (
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	k8s.io/api v0.18.9
 	k8s.io/apimachinery v0.18.9
-	k8s.io/client-go v0.18.9
+	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66 // indirect
-	kmodules.xyz/client-go v0.0.0-20200924114038-ef01fa7ccbed
+	kmodules.xyz/client-go v0.0.0-20200928072851-0b8648a2b8b9
 	kmodules.xyz/custom-resources v0.0.0-20200922210108-70f2815a43bb
 )
 
