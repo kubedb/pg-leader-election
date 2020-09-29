@@ -15,7 +15,7 @@ github.com/Azure/go-autorest/tracing
 github.com/PuerkitoBio/purell
 # github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
 github.com/PuerkitoBio/urlesc
-# github.com/appscode/go v0.0.0-20200323182826-54e98e09185a
+# github.com/appscode/go v0.0.0-20200928211031-cc0c23082d91
 github.com/appscode/go/analytics
 github.com/appscode/go/context
 github.com/appscode/go/encoding/json/types
@@ -298,7 +298,7 @@ k8s.io/cli-runtime/pkg/kustomize/k8sdeps/transformer/patch
 k8s.io/cli-runtime/pkg/kustomize/k8sdeps/validator
 k8s.io/cli-runtime/pkg/printers
 k8s.io/cli-runtime/pkg/resource
-# k8s.io/client-go v12.0.0+incompatible => github.com/kmodules/k8s-client-go v0.18.10-0.20200922201634-73fedf3d677e
+# k8s.io/client-go v0.18.9 => github.com/kmodules/k8s-client-go v0.18.10-0.20200922201634-73fedf3d677e
 k8s.io/client-go/discovery
 k8s.io/client-go/discovery/cached/disk
 k8s.io/client-go/discovery/cached/memory
@@ -388,7 +388,7 @@ k8s.io/kube-openapi/pkg/util/proto
 # k8s.io/utils v0.0.0-20200414100711-2df71ebbae66 => k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 k8s.io/utils/integer
 k8s.io/utils/pointer
-# kmodules.xyz/client-go v0.0.0-20200928072851-0b8648a2b8b9
+# kmodules.xyz/client-go v0.0.0-20200929030759-cce6a3c623c1
 kmodules.xyz/client-go
 kmodules.xyz/client-go/apiextensions
 kmodules.xyz/client-go/apiextensions/v1
