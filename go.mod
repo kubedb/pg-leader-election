@@ -14,22 +14,20 @@ require (
 	github.com/gophercloud/gophercloud v0.11.0 // indirect
 	github.com/kr/pretty v0.2.0 // indirect
 	github.com/mailru/easyjson v0.7.1 // indirect
-	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mitchellh/mapstructure v1.2.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
-	github.com/spf13/cobra v1.0.0
-	github.com/stretchr/testify v1.5.1 // indirect
+	github.com/spf13/cobra v1.1.1
 	golang.org/x/net v0.0.0-20200602114024-627f9648deb9 // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
+	gomodules.xyz/pointer v0.0.0-20201105071923-daf60fa55209 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	k8s.io/api v0.18.9
 	k8s.io/apimachinery v0.18.9
 	k8s.io/client-go v0.18.9
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66 // indirect
-	kmodules.xyz/client-go v0.0.0-20201027113349-01a6d453d836
-	kmodules.xyz/custom-resources v0.0.0-20201008012351-6d8090f759d4
+	kmodules.xyz/client-go v0.0.0-20201105071625-0b277310b9b8
+	kmodules.xyz/custom-resources v0.0.0-20201105075444-3c6af51b4f79
 )
 
 replace bitbucket.org/ww/goautoneg => gomodules.xyz/goautoneg v0.0.0-20120707110453-a547fc61f48d
