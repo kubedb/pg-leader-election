@@ -15,15 +15,6 @@ github.com/Azure/go-autorest/tracing
 github.com/PuerkitoBio/purell
 # github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
 github.com/PuerkitoBio/urlesc
-# github.com/appscode/go v0.0.0-20201006035845-a0302ac8e3d3
-github.com/appscode/go/context
-github.com/appscode/go/flags
-github.com/appscode/go/ioutil
-github.com/appscode/go/log
-github.com/appscode/go/log/golog
-github.com/appscode/go/runtime
-github.com/appscode/go/sets
-github.com/appscode/go/version
 # github.com/cpuguy83/go-md2man/v2 v2.0.0
 github.com/cpuguy83/go-md2man/v2/md2man
 # github.com/davecgh/go-spew v1.1.1
@@ -172,11 +163,20 @@ gomodules.xyz/homedir
 gomodules.xyz/jsonpatch/v2
 # gomodules.xyz/pointer v0.0.0-20201105071923-daf60fa55209
 gomodules.xyz/pointer
+# gomodules.xyz/runtime v0.0.0-20201104200926-d838b09dda8b
+gomodules.xyz/runtime
+# gomodules.xyz/sets v0.0.0-20200930152147-4f4543544799
+gomodules.xyz/sets
 # gomodules.xyz/version v0.1.0
 gomodules.xyz/version
 # gomodules.xyz/x v0.0.0-20201105065653-91c568df6331
 gomodules.xyz/x/analytics
+gomodules.xyz/x/context
+gomodules.xyz/x/flags
+gomodules.xyz/x/ioutil
+gomodules.xyz/x/log
 gomodules.xyz/x/log/golog
+gomodules.xyz/x/version
 # google.golang.org/appengine v1.6.6
 google.golang.org/appengine
 google.golang.org/appengine/internal

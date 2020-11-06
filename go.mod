@@ -6,7 +6,6 @@ require (
 	cloud.google.com/go v0.56.0 // indirect
 	github.com/Azure/go-autorest/autorest v0.10.2 // indirect
 	github.com/Azure/go-autorest/autorest/adal v0.8.3 // indirect
-	github.com/appscode/go v0.0.0-20201006035845-a0302ac8e3d3
 	github.com/go-openapi/spec v0.19.8 // indirect
 	github.com/go-openapi/swag v0.19.9 // indirect
 	github.com/golang/groupcache v0.0.0-20191227052852-215e87163ea7 // indirect
@@ -20,6 +19,8 @@ require (
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
 	gomodules.xyz/pointer v0.0.0-20201105071923-daf60fa55209 // indirect
+	gomodules.xyz/runtime v0.0.0-20201104200926-d838b09dda8b
+	gomodules.xyz/x v0.0.0-20201105065653-91c568df6331
 	google.golang.org/appengine v1.6.6 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	k8s.io/api v0.18.9
