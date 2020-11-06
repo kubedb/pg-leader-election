@@ -19,10 +19,10 @@ package cmds
 import (
 	"flag"
 
-	"github.com/appscode/go/flags"
-	"github.com/appscode/go/log/golog"
-	v "github.com/appscode/go/version"
 	"github.com/spf13/cobra"
+	"gomodules.xyz/x/flags"
+	"gomodules.xyz/x/log/golog"
+	v "gomodules.xyz/x/version"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	clientsetscheme "k8s.io/client-go/kubernetes/scheme"
 	"kmodules.xyz/client-go/logs"
