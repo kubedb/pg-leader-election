@@ -26,7 +26,7 @@ require (
 	k8s.io/apimachinery v0.18.9
 	k8s.io/client-go v0.18.9
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66 // indirect
-	kmodules.xyz/client-go v0.0.0-20201208053851-a1d7be95e006
+	kmodules.xyz/client-go v0.0.0-20201229202653-b029d8e7bcbb
 	kmodules.xyz/custom-resources v0.0.0-20201124062543-bd8d35c21b0c
 )
 
