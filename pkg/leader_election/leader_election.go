@@ -29,6 +29,8 @@ import (
 	"syscall"
 	"time"
 
+	api "kubedb.dev/apimachinery/apis/kubedb/v1alpha2"
+
 	"gomodules.xyz/x/ioutil"
 	core "k8s.io/api/core/v1"
 	kerr "k8s.io/apimachinery/pkg/api/errors"
@@ -44,9 +46,6 @@ import (
 )
 
 const (
-	RolePrimary = "primary"
-	RoleReplica = "replica"
-
 	LeaseDurationEnv = "LEASE_DURATION"
 	RenewDeadlineEnv = "RENEW_DEADLINE"
 	RetryPeriodEnv   = "RETRY_PERIOD"
@@ -166,9 +165,9 @@ func RunLeaderElection() {
 
 					log.Println("Annotating pods for statefulset")
 					for _, pod := range pods.Items {
-						role := RoleReplica
+						role := api.PostgresPodStandby
 						if pod.Name == identity {
-							role = RolePrimary
+							role = api.PostgresPodPrimary
 						}
 						if _, _, err := core_util.PatchPod(context.TODO(), kubeClient, &pod, func(in *core.Pod) *core.Pod {
 							in.Labels["kubedb.com/role"] = role
@@ -181,9 +180,9 @@ func RunLeaderElection() {
 
 					}
 
-					role := RoleReplica
+					role := api.PostgresPodStandby
 					if identity == hostname {
-						role = RolePrimary
+						role = api.PostgresPodPrimary
 					}
 
 					log.Printf("This pod is now a %s\n", role)
