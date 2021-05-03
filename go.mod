@@ -10,8 +10,10 @@ require (
 	k8s.io/api v0.21.0
 	k8s.io/apimachinery v0.21.0
 	k8s.io/client-go v12.0.0+incompatible
-	kmodules.xyz/client-go v0.0.0-20210502215034-b73197efff3f
-	kmodules.xyz/custom-resources v0.0.0-20210502220303-115fa584b8d1
+	kmodules.xyz/client-go v0.0.0-20210503064222-c8c59295a3a5
+	kmodules.xyz/custom-resources v0.0.0-20210503065135-5267be335cb4
+	kmodules.xyz/monitoring-agent-api v0.0.0-20210503064631-e2d5686a9acd // indirect
+	kmodules.xyz/offshoot-api v0.0.0-20210503065102-3250bbdedc8f // indirect
 	kubedb.dev/apimachinery v0.16.3-0.20210308083722-3cdca5092e26
 )
 
