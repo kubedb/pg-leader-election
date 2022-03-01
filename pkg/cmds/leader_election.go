@@ -23,7 +23,6 @@ import (
 )
 
 func NewCmdLeaderElection() *cobra.Command {
-
 	cmd := &cobra.Command{
 		Use:               "leader_election",
 		Short:             "Run leader election for postgres",

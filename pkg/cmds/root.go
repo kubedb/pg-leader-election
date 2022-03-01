@@ -31,7 +31,7 @@ import (
 )
 
 func NewRootCmd(version string) *cobra.Command {
-	var rootCmd = &cobra.Command{
+	rootCmd := &cobra.Command{
 		Use:               "pg-leader-election",
 		DisableAutoGenTag: true,
 		PersistentPreRun: func(c *cobra.Command, args []string) {
