@@ -3,6 +3,7 @@ module kubedb.dev/pg-leader-election
 go 1.12
 
 require (
+	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/spf13/cobra v1.1.3
 	gomodules.xyz/runtime v0.2.0
 	gomodules.xyz/sets v0.0.0-20210218105342-2efe2fb519a2 // indirect
